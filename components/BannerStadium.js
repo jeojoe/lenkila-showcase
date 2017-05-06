@@ -17,8 +17,10 @@ export default class BannerStadium extends Component {
             <div className="text-reveal">
               <h1>{text}</h1>
               <h5>{subText}</h5>
-              <button className="button-primary">
-                {imageClass === 'stadium' ? 'ลงทะเบียนใช้งาน' : 'ติดต่อทีมงาน'}</button>
+              <a href="https://goo.gl/forms/UZMmB43cIdz0kAnw2" target="__blank" style={{textDecoration: 'none;'}}>
+                <button className="button-primary">
+                  สมัครใช้งาน Lenkila</button>
+              </a>
             </div>
           </div>
           <div className="row" style={{ paddingTop: '50px' }}>
@@ -30,6 +32,11 @@ export default class BannerStadium extends Component {
           </div>
         </div>
         <style jsx>{`
+          .button-primary {
+            font-size: 18px;
+            height: 60px;
+            box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+          }
           .banner {
             background-image: url('/static/bg-1.jpg');
             padding-top: 140px;
