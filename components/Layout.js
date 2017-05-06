@@ -11,6 +11,7 @@ export default ({ children, title = 'LENKILA : Thai Community For Sport Lovers',
       <link href="https://fonts.googleapis.com/css?family=Kanit:400|Open+Sans:700i" rel="stylesheet" />
       <link rel="stylesheet" type="text/css" href="/static/normalize.css" />
       <link rel="stylesheet" type="text/css" href="/static/skeleton.css" />
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
       <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
     </Head>
     <Navbar url={url} />

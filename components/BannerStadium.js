@@ -86,7 +86,12 @@ export default class BannerStadium extends Component {
         `}</style>
         <style jsx global>{`
           .browser {
-            width: 100%;
+            width: 80%;
+          }
+          @media (max-width: 750px) {
+            .browser {
+              width: 100%;
+            }
           }
         `}</style>
       </div>
