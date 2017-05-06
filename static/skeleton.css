@@ -23,7 +23,9 @@
 - Clearing
 - Media Queries
 */
-
+body {
+  background-color: #FFC107;
+}
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
@@ -456,7 +458,7 @@ div {
   50%{background-position:100% 51%}
   100%{background-position:0% 50%}
 }
-@keyframes AnimationName { 
+@keyframes AnimationName {
   0%{background-position:0% 50%}
   50%{background-position:100% 51%}
   100%{background-position:0% 50%}

@@ -13,10 +13,11 @@ export default () => (
     <style jsx>{`
       .footer {
         padding: 50px 0;
-        color: #999;
+        color: #fff;
       }
       .footer p {
         margin: 10px 0;
+        text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
       }
       .footer a {
         margin: 0 15px 0 0;

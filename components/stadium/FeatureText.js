@@ -13,7 +13,7 @@ export default ({ iconClass, secondIcon, header, description }) => (
     </div>
     <style jsx>{`
       .wrapper {
-        padding: 2%;
+        padding: 2% 2% 2% 0;
         margin-bottom: 5px;
       }
       .icon-side {
@@ -21,14 +21,20 @@ export default ({ iconClass, secondIcon, header, description }) => (
         display: inline-block;
         vertical-align: top;
         padding-top: 10px;
+        text-align: center;
       }
       .text-side {
         width: calc(100% - 65px);
         display: inline-block;
+        padding-left: 10px;
       }
       .header {
         color: #fc9300;
         font-weight: 500;
+        margin-bottom: 12px;
+      }
+      .description {
+        font-size: 17px;
       }
       .line {
         width: 75%;
@@ -37,11 +43,8 @@ export default ({ iconClass, secondIcon, header, description }) => (
       }
       .fa {
         font-size: 30px;
-        color: #FFA726;
+        color: #999;
         margin-bottom: 15px;
-      }
-      .description {
-        font-size: 18px;
       }
       @media (max-width: 450px) {
         .fa {
