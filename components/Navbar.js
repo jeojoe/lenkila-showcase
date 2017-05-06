@@ -14,11 +14,11 @@ export default ({ url: { pathname } }) => (
             ผู้เล่น</a>
         </Link>
         <Link href="/stadium" prefetch>
-          <a className={c('nav-item', { active: pathname === '/stadium' })}>สนาม</a>
+          <a className={c('nav-item', { active: pathname === '/stadium' })}>เจ้าของสนาม</a>
         </Link>
         <a className="nav-item no-hover">|</a>
         <Link href="/join" prefetch>
-          <a className={c('nav-item', { active: pathname === '/join' })}>ร่วมงานกับเรา</a>
+          <a className={c('nav-item', { active: pathname === '/join' })}>แบรนด์สินค้า</a>
         </Link>
       </div>
     </div>
