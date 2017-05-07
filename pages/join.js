@@ -20,15 +20,14 @@ export default ({ url }) => (
         <div className="row">
           <div className="one-half column">
             <FeatureText
-              iconClass="fa-line-chart"
-              secondIcon
+              iconClass="fa-handshake-o"
               header="สปอนเซอร์"
               description="สปอนเซอร์ผลิตภัณฑ์ให้กับสนามกีฬาในเครือ LENKILA เพื่อเพิ่มยอดขายให้แก่บริษัท"
             />
           </div>
           <div className="one-half column">
             <FeatureText
-              iconClass="fa-money"
+              iconClass="fa-search"
               header="ติดตามผล"
               description="เก็บ Feedback จากลูกค้าได้โดยตรงผ่านแอพพลิเคชัน LENKILA ทันทีหลังลูกค้าออกกำลังกายเสร็จ"
             />
@@ -37,7 +36,7 @@ export default ({ url }) => (
         <div className="row">
           <div className="twelve columns">
             <FeatureText
-              iconClass="fa-retweet"
+              iconClass="fa-bullhorn"
               header="โปรโมท"
               description="ทำให้ผลิตภัณฑ์เป็นที่รู้จักในหมู่คนเล่นกีฬา ผ่านแบนเนอร์ในแอพพลิเคชัน LENKILA และป้ายประกาศรูปแบบต่างๆสำหรับ สนามในเครือ LENKILA"
             />
