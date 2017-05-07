@@ -18,7 +18,7 @@ export default ({ url: { pathname } }) => (
         </Link>
         <a className="nav-item no-hover">|</a>
         <Link href="/join" prefetch>
-          <a className={c('nav-item', { active: pathname === '/join' })}>แบรนด์สินค้า</a>
+          <a className={c('nav-item', { active: pathname === '/join' })}>แบรนด์</a>
         </Link>
       </div>
     </div>

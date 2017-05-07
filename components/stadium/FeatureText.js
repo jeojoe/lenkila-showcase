@@ -43,7 +43,7 @@ export default ({ iconClass, secondIcon, header, description }) => (
       }
       .fa {
         font-size: 30px;
-        color: #999;
+        color: #666;
         margin-bottom: 15px;
       }
       @media (max-width: 450px) {

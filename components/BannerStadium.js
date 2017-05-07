@@ -17,14 +17,16 @@ export default class BannerStadium extends Component {
             <div className="text-reveal">
               <h1>{text}</h1>
               <h5>{subText}</h5>
-              <a href="https://goo.gl/forms/UZMmB43cIdz0kAnw2" target="__blank" style={{textDecoration: 'none;'}}>
+              <a href="https://goo.gl/forms/UZMmB43cIdz0kAnw2" target="__blank" style={{ textDecoration: 'none' }}>
                 <button className="button-primary">
-                  สมัครใช้งาน Lenkila</button>
+                  {imageClass === 'browser' ?
+                    'สมัครใช้งาน Lenkila' : 'ร่วมงานกับ LENKILA'
+                  }</button>
               </a>
             </div>
           </div>
           <div className="row" style={{ paddingTop: '50px' }}>
-            {imageClass === 'stadium' ?
+            {imageClass === 'browser' ?
               <img src="/static/browser.png" alt="Stadium UI Preview" className="browser" />
               :
               <img src="/static/browser.png" alt="Stadium UI Preview" className="browser" />
