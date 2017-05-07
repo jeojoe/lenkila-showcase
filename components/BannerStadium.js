@@ -29,7 +29,7 @@ export default class BannerStadium extends Component {
                   </a>
                   <span className="or">หรือ</span>
                   <a
-                    href="//stadium.lenkila.com" target="__blank" style={{ textDecoration: 'none' }}
+                    href="http://stadium.lenkila.com" target="__blank" style={{ textDecoration: 'none' }}
                   >
                     <button className="button login">
                       เข้าสู่ระบบ LENKILA
