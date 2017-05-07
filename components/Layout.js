@@ -1,6 +1,15 @@
 import Head from 'next/head';
+import NProgress from 'nprogress';
+import Router from 'next/router';
 import Navbar from './Navbar';
 import Footer from './Footer';
+
+Router.onRouteChangeStart = (url) => {
+  NProgress.start();
+};
+
+Router.onRouteChangeComplete = () => NProgress.done();
+Router.onRouteChangeError = () => NProgress.done();
 
 export default ({ children, title = 'LENKILA : Thai Community For Sport Lovers', url }) => (
   <div>
