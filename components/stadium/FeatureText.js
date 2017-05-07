@@ -35,6 +35,7 @@ export default ({ iconClass, secondIcon, header, description }) => (
       }
       .description {
         font-size: 17px;
+        margin-bottom: 10px;
       }
       .line {
         width: 75%;

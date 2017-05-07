@@ -56,7 +56,7 @@ export default ({ url }) => (
         <p className="close-line">และ Benefit อื่นๆอีกมากมาย ที่เราสร้างมาเพื่อคุณ</p>
         <a href="https://goo.gl/forms/UZMmB43cIdz0kAnw2" target="__blank" style={{textDecoration: 'none'}}>
           <button className="button-primary">
-            สมัครใช้งาน LENKILA
+            สมัครใช้งาน LENKILA ฟรี!
           </button>
         </a>
         <p className="close-line">หรือติดต่อ 083-757-9082</p>

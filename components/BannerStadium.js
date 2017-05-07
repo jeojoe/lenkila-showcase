@@ -20,9 +20,19 @@ export default class BannerStadium extends Component {
               <a href="https://goo.gl/forms/UZMmB43cIdz0kAnw2" target="__blank" style={{ textDecoration: 'none' }}>
                 <button className="button-primary">
                   {imageClass === 'browser' ?
-                    'สมัครใช้งาน Lenkila' : 'ร่วมงานกับ LENKILA'
+                    'สมัครใช้งาน Lenkila ฟรี!' : 'พาร์ทเนอร์กับ LENKILA'
                   }</button>
               </a>
+              {imageClass === 'browser' &&
+                <span className="or">หรือ</span>
+              }
+              {imageClass === 'browser' &&
+                <a href="//stadium.lenkila.com" target="__blank" style={{ textDecoration: 'none' }}>
+                  <button className="button login">
+                    เข้าสู่ระบบ LENKILA
+                  </button>
+                </a>
+              }
             </div>
           </div>
           <div className="row" style={{ paddingTop: '50px' }}>
@@ -38,6 +48,21 @@ export default class BannerStadium extends Component {
             font-size: 18px;
             height: 60px;
             box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+          }
+          .or {
+            padding: 0 10px;
+          }
+          @media (max-width: 500px) {
+            .or {
+              display: none;
+            }
+          }
+          .button.login {
+            font-size: 18px;
+            color: #ff9300;
+            height: 60px;
+            border-color: #fff;
+            background-color: #fff;
           }
           .banner {
             background-image: url('/static/bg-1.jpg');
