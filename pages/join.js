@@ -44,12 +44,9 @@ export default ({ url }) => (
           </div>
         </div>
         <p className="close-line" />
-        <a href="https://goo.gl/forms/UZMmB43cIdz0kAnw2" target="__blank" style={{textDecoration: 'none'}}>
-          <button className="button-primary">
-            พาร์ทเนอร์กับ LENKILA
-          </button>
-        </a>
-        <p className="close-line">หรือติดต่อ 083-757-9082</p>
+        <button className="button-primary">
+          ติดต่อ 083-757-9082
+        </button>
       </div>
     </div>
     <style jsx>{`

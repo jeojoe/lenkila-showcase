@@ -1,4 +1,6 @@
 import Link from 'next/link';
+import { FBPage } from 'facebook-plugins';
+// import FacebookProvider, { Like } from 'react-facebook';
 
 export default () => (
   <div className="footer">
@@ -8,6 +10,16 @@ export default () => (
         <Link href="/" prefetch><a>User</a></Link>
         <Link href="/stadium" prefetch><a>Stadium</a></Link>
         <Link href="/join" prefetch><a>Work with Us</a></Link>
+      </div>
+      <div className="fb-wrapper">
+        <FBPage
+          appId="1699046323689709"
+          href="https://www.facebook.com/lenkila"
+          tabs={['timeline']}
+        />
+        {/* <FacebookProvider appId="1699046323689709">
+          <Like href="http://www.facebook.com/lenkila" colorScheme="dark" showFaces share width="400" />
+        </FacebookProvider> */}
       </div>
     </div>
     <style jsx>{`
@@ -25,6 +37,11 @@ export default () => (
       }
       .footer a:hover {
         text-decoration: underline;
+      }
+      .fb-wrapper {
+        maxWidth: 400px;
+        overflow: hidden;
+        padding-top: 20px;
       }
       @media (max-width: 1080px) {
         .footer {
