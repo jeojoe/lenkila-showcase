@@ -91,7 +91,7 @@ export default class BannerStadium extends Component {
               letter-spacing: 0.1rem;
             }
             .banner .button {
-              margin: 20px 15px 0 0;
+              margin: 20px 0 0 0;
             }
             @keyframes cf3FadeInOut {
               0% {
@@ -107,7 +107,7 @@ export default class BannerStadium extends Component {
                 background-image: url('/static/bg-1.jpg');
               }
             }
-            @media (max-width: 550px) {
+            @media (max-width: 750px) {
               .banner {
                 padding-top: 190px;
               }
