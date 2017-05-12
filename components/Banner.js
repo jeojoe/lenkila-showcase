@@ -41,6 +41,9 @@ export default class Banner extends Component {
           }
           .banner h1 {
             font-size: 56px;
+            font-family: 'Open Sans';
+            font-style: italic;
+            font-weight: 700;
           }
           .banner h5 {
             letter-spacing: 0.1rem;

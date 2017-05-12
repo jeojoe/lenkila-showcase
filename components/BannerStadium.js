@@ -25,14 +25,14 @@ export default class BannerStadium extends Component {
                     }}
                   >
                     <button className="button-primary">
-                      สมัครใช้งาน Lenkila ฟรี!</button>
+                      สมัครใช้งาน <span className="font-fix">LENKILA</span> ฟรี!</button>
                   </a>
                   <span className="or">หรือ</span>
                   <a
                     href="http://stadium.lenkila.com" target="__blank" style={{ textDecoration: 'none' }}
                   >
                     <button className="button login">
-                      เข้าสู่ระบบ LENKILA
+                      เข้าสู่ระบบ <span className="font-fix">LENKILA</span>
                     </button>
                   </a>
                 </div>

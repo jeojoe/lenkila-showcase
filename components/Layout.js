@@ -27,5 +27,12 @@ export default ({ children, title = 'LENKILA : Thai Community For Sport Lovers',
     <Navbar url={url} />
     { children }
     <Footer />
+    <style jsx global>{`
+      .font-fix {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
+      }
+    `}</style>
   </div>
 );

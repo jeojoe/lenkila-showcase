@@ -28,6 +28,9 @@ export default ({ url: { pathname } }) => (
         // text-shadow: 0px 2px 4px rgba(0,0,0,0.3);
         letter-spacing: 0.1rem;
         cursor: pointer;
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
       }
       .navbar {
         position: absolute;

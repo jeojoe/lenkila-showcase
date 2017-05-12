@@ -26,6 +26,9 @@ export default () => (
       .footer {
         padding: 50px 0;
         color: #fff;
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
       }
       .footer p {
         margin: 10px 0;
