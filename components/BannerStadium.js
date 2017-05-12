@@ -67,10 +67,11 @@ export default class BannerStadium extends Component {
             }
             .button.login {
               font-size: 18px;
-              color: #ff9300;
+              color: #fff;
               height: 60px;
-              border-color: #fff;
-              background-color: #fff;
+              border-color: #FF3D00;
+              background-color: #FF3D00;
+              box-shadow: 0 2px 4px rgba(0,0,0,0.3);
             }
             .banner {
               background-image: url('/static/bg-1.jpg');
