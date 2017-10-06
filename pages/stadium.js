@@ -59,7 +59,7 @@ export default ({ url }) => (
             สมัครใช้งาน <span className="font-fix">LENKILA</span> ฟรี!
           </button>
         </a>
-        <p className="close-line">หรือติดต่อ 083-757-9082</p>
+        <p className="close-line">หรือติดต่อ 083-757-0982</p>
       </div>
     </div>
     <style jsx>{`
